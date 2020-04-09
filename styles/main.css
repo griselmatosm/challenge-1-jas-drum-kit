@@ -5,7 +5,7 @@
   }
 
   .page {
-    background: url(../images/sound-dj-machine.jpg) center center no-repeat;
+    background: url(../images/silver-blues-band-ii.jpg) center center no-repeat;
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -25,7 +25,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 5px;
     width: 80px;
     height: 70px;
@@ -35,11 +35,13 @@
 
   kbd {
     color: white;
+    text-shadow: 3px -1px 4px rgb(218, 165, 32);
     font-size: xx-large;
   }
 
   .sound {
-    color: goldenrod;
+    color: rgb(218, 165, 32);
+    text-shadow: 3px -1px 4px rgb(218, 165, 32);
     text-transform: uppercase;
     font-size: small;
   }
